@@ -1,15 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Employees from './components/Employees.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <div>
-        <h1>Darren D. Reales</h1>
-        <h2>Jeffrey Toquero</h2>
+        <Employees />
       </div>
     </div>
   )
